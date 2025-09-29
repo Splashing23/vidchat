@@ -23,7 +23,7 @@ On Windows, PowerShell is used by the provided scripts. The repository includes 
 
    npm install
 
-2. Provide an OpenAI API key. The launcher scripts look for `OPENAI_API_KEY` either in the environment or in a repository file named `.env.local` with a line like:
+2. Provide an OpenAI API key. The launcher scripts look for `OPENAI_API_KEY` either in the environment or in a repository file in the root folder named `.env.local` with a line like:
 
    OPENAI_API_KEY=sk-...
 
