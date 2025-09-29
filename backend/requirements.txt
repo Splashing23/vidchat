@@ -1,0 +1,10 @@
+fastapi>=0.116.1
+uvicorn>=0.32.1
+python-multipart>=0.0.18
+openai>=1.99.6
+python-dotenv>=1.0.1
+pydantic>=2.10.5
+typing-extensions>=4.12.2
+httpx>=0.28.1 
+moviepy>=1.0.3
+multipart>=0.3.4

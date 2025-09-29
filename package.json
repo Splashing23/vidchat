@@ -1,0 +1,36 @@
+{
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+  "dev": "node ./scripts/dev-start.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+  "backend": "node ./scripts/run-backend.js",
+  "backend:win": "powershell -NoProfile -ExecutionPolicy Bypass -File backend/start.ps1",
+  "dev:all": "node ./scripts/dev-start.js"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/blob": "^1.1.1",
+    "lucide-react": "^0.539.0",
+    "next": "15.4.6",
+    "openai": "^5.12.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-markdown": "^10.1.0",
+    "react-pdf": "^10.0.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/css-modules": "^1.0.5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "concurrently": "^9.2.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
