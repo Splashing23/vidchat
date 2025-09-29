@@ -36,6 +36,8 @@ On Windows, PowerShell is used by the provided scripts. The repository includes 
 
 This uses `scripts/dev-start.js` which will check for `OPENAI_API_KEY` and then run the backend and Next dev using `concurrently`.
 
+Here is a sample video you may download and test on: [WeAreGoingOnBullrun.mp4](http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4)
+
 If you prefer to run the backend individually, see the manual instructions below.
 
 ## Running the backend manually
