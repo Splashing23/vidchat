@@ -34,7 +34,7 @@ On Windows, PowerShell is used by the provided scripts. The repository includes 
 
    npm run dev
 
-This uses `scripts/dev-start.js` which will check for `OPENAI_API_KEY` and then run the backend and Next dev using `concurrently`.
+Default port is configured to localhost:3000, but will increment based on availability. This uses `scripts/dev-start.js` which will check for `OPENAI_API_KEY` and then run the backend and Next dev using `concurrently`. 
 
 Here is a sample video you may download and test on: [WeAreGoingOnBullrun.mp4](http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4)
 
